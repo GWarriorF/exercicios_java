@@ -19,6 +19,8 @@ public class CalculoSalario {
 		novosalario = salario + abono;
 		
 		System.out.print("\nSeu salário é: " + novosalario);
+		
+		leia.close();
 
 	}
 

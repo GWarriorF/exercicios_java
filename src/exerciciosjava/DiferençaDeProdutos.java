@@ -29,6 +29,8 @@ public class DiferençaDeProdutos {
 		diferenca = produto1 - produto2;
 		
 		System.out.print("A diferença entre o produto das suas multiplicações é: " + diferenca);
+		
+		leia.close();
 	}
 
 }

@@ -25,7 +25,9 @@ public class MediaAlunos {
 		somaDasNotas = nota1 + nota2 + nota3 + nota4;
 		mediaFinal = somaDasNotas/4;
 		
-		System.out.print("Média do participante: " + mediaFinal);
+		System.out.printf("Média do participante: %.1f", mediaFinal);
+		
+		leia.close();
 		
 	}
 
