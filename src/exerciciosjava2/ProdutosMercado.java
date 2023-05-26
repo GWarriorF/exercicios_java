@@ -25,6 +25,7 @@ public class ProdutosMercado {
 		//Entrada de dados 
 		System.out.print("\nDigite o número do produto escolhido: ");
 		produtoEscolhido = ler.nextInt();
+		
 		System.out.print("Digite a quantidade levada do produto: ");
 		quantidadeProduto = ler.nextInt();
 		

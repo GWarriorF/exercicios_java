@@ -19,13 +19,17 @@ public class CalculadoraSimples {
 		System.out.println("1. Multiplicação;");
 		System.out.println("1. Divisão.");
 		
+		//Entrada de Dados
 		System.out.print("\nQual operação você deseja realizar? ");
 		operacao = ler.nextInt();
+		
 		System.out.print("\nDigite o valor do primeiro termo: ");
 		termo1 = ler.nextFloat();
+		
 		System.out.print("Digite o valor do segundo termo: ");
 		termo2 = ler.nextFloat(); 
 		
+		//Tratamento e saída de dados
 		switch (operacao) {
 		case 1:
 			System.out.println("\nResultado da soma dos termos: " + (termo1 + termo2));
@@ -39,6 +43,8 @@ public class CalculadoraSimples {
 		case 4:
 			System.out.println("\nResultado do quociente dos termos: " + (termo1 / termo2));
 			break;
+		default: 
+			System.out.println("\nEssa opção não existe.");
 		}
 		
 		ler.close();

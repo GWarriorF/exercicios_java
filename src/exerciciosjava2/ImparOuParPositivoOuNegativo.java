@@ -12,23 +12,23 @@ public class ImparOuParPositivoOuNegativo {
 		
 		System.out.println("Programa para verificar se um número é ímpar ou par e se é positivo ou negativo:");
 		
+		//Entrada de dados
 		System.out.print("Entre com um um valor inteiro: ");
 		numero = leia.nextInt();
 		
 		System.out.println("\nO resultado é:");
+		
 		//Verificação ímpar ou par:
 		if (numero % 2 == 0) {
 			System.out.println("📌 Este número é par;");
-		}
-		else {
+		}else {
 			System.out.println("📌 Este número é ímpar;");
 		}
 		
 		// Verificação Positivo ou negativo: 
 		if (numero > 0) {
 			System.out.println("📌 Este número é positivo.");
-		}
-		else {
+		}else {
 			System.out.println("📌 Este número é negativo.");
 		}
 		
