@@ -73,8 +73,7 @@ public class QualAnimal {
 				System.out.print("\nEsse animal não existe no nosso banco de dados.");
 		}
 		
-		ler.close();
-		
+		ler.close();	
 		
 	}
 

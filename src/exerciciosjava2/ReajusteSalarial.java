@@ -15,17 +15,16 @@ public class ReajusteSalarial {
 		//Informações para o usuário
 		System.out.println("Este programa serve para calcular seu reajuste salarial.");
 		System.out.println("\nListade cargos: " + "\n1. Gerente;" + "\n2. Vendedor;" + 
-							"\n3. Supervisor;" + "\n4. Motorista;" + "\n5. Estoquista" + "\n6. Técnico de T.I.");
+							"\n3. Supervisor;" + "\n4. Motorista;" + "\n5. Estoquista" 
+							+ "\n6. Técnico de T.I.");
 		
 		// Entrada de dados
 		System.out.print("\nDigite o número do seu cargo: ");
 		cargo = ler.nextInt();
-		
 		System.out.print("Digite seu salário atual: ");
-		salario = ler.nextFloat();
-		
+		salario = ler.nextFloat();	
 		System.out.print("Digite seu nome: ");
-		colaborador = ler.next();
+		colaborador = ler.nextLine();
 		
 		// Tratamento de dados
 		switch(cargo) {
@@ -49,6 +48,8 @@ public class ReajusteSalarial {
 					+ "\nNovo Salário: " + (salario + (salario * 0.08)));
 			
 		}
+		
+		ler.close();
 	
 	}
 
