@@ -9,6 +9,7 @@ public class SomaPositivos {
 		int numero, soma = 0; 
 		
 		Scanner ler = new Scanner(System.in);
+		
 		//Informações para o usuário
 		System.out.println("Programa feito para fazer a adição de números positivos." + "\n");
 		
