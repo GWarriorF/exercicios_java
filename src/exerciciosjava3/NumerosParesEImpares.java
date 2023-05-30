@@ -31,6 +31,7 @@ public class NumerosParesEImpares {
 		System.out.println("Total de números ímpares: " + impar);
 		
 		ler.close();
+
 	}
 
 }

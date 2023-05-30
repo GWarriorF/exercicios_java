@@ -37,7 +37,6 @@ public class VetorOperacoes {
 				System.out.print(vetorNumerosUsuario[indice] + " ");
 			}
 		}
-		
 
 		//Soma dos elementos do vetor
 		for (indice = 0; indice <= 9; indice++) 
