@@ -21,7 +21,7 @@ public class ProdutoJogo
 				System.out.println("Genêro: " + genero);
 				System.out.println("Console: " + console);
 				System.out.println("Faixa Etaria: " + faixaetaria);
-				System.out.println("Preço: " + saldo); 
+				System.out.println("Preço: " + saldo + "\n"); 
 			}
 			
 			//titulo 

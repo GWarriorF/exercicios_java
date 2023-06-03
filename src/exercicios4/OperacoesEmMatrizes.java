@@ -22,7 +22,7 @@ public class OperacoesEmMatrizes {
 				System.out.print("Digite o número que deseja inserir na matriz: ");
 				matrizUsuario[linha][coluna] = ler.nextInt();
 				
-				if(linha == 0 && coluna == 0 || linha == 1 && coluna == 1 || linha == 2 && coluna == 2) 
+				if(linha == coluna) 
 				{
 					vetorDiagoalP [coluna] = matrizUsuario[linha][coluna]; 
 					somaDP += matrizUsuario[linha][coluna];
@@ -43,7 +43,8 @@ public class OperacoesEmMatrizes {
 			System.out.print(numerosVetor + " ");
 		}
 		
-		System.out.print("\nElementos da Diagonal Secundária: " );
+		System.out.print("\nElement"
+				+ "os da Diagonal Secundária: " );
 		for(int numerosVetor : vetorDiagoalS) 
 		{
 			System.out.print(numerosVetor + " ");
