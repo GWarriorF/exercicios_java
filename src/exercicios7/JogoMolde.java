@@ -1,12 +1,12 @@
 package exercicios7;
 
-public class ProdutoJogo 
+public class JogoMolde 
 {
 		//Atributos de um jogo (Produto)
 			private String titulo, genero, console, faixaetaria; 
 			private float saldo;
 			
-			public ProdutoJogo(String titulo, String genero, String console, String faixaetaria, float saldo) 
+			public JogoMolde(String titulo, String genero, String console, String faixaetaria, float saldo) 
 			{
 				this.titulo = titulo;
 				this.genero= genero;
@@ -15,7 +15,7 @@ public class ProdutoJogo
 				this.saldo = saldo;
 			}
 			
-			public void Visualiza()
+			public void PrintJogo()
 			{
 				System.out.println("Título: " + titulo);
 				System.out.println("Genêro: " + genero);
