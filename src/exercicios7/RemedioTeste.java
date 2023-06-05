@@ -8,7 +8,7 @@ public class RemedioTeste {
 												"750mg, 20 comprimidos");
 		remedio1.PrintRemedio();
 		RemedioMolde remedio2 = new RemedioMolde("Amoxicilina", "Antibiótico", "Via Oral", "Líquido",
-												 "150ML");
+												 "1503ML");
 		remedio2.PrintRemedio();
 		
 	}
