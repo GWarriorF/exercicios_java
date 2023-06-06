@@ -14,7 +14,7 @@ public class IngressoMolde
 			this.nomeComprador = nomeComprador;
 		}
 		
-		public void PrintIngresso() 
+		public void printIngresso() 
 		{
 			System.out.println("Nome do Participante: " + nomeComprador);
 			System.out.println("Nome do evento: " + nomeEvento);

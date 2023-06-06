@@ -12,7 +12,7 @@ public class RemedioMolde
 		this.quantidade = quantidade;
 	}
 
-	public void PrintRemedio() 
+	public void printRemedio() 
 		{
 			System.out.println("Nome do remédio: " + nome);
 			System.out.println("Categoria: " + categoria);
